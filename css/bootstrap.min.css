@@ -670,6 +670,13 @@ pre code {
     width: 100%
 }
 
+.tools {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-items: center;
+    row-gap: 20px;
+}
+
 .row {
     display: -ms-flexbox;
     display: flex;
